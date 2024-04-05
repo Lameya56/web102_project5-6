@@ -1,12 +1,10 @@
-#root {
-  width: 400vh;
-}
 .App {
   text-align: center;
+  background-color: rgb(182, 182, 223);
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #8396ba;
   padding: 20px;
   color: white;
 }
@@ -37,4 +35,20 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
   background-color: #ddd;
+}
+nav {
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+}
+
+.home-link 
+{
+  border:1px dotted white;
+  background:#1d1f1d;
+  width:75px;
+}
+.chart-container {
+  color: black;
+
 }
